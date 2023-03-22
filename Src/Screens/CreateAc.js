@@ -42,7 +42,6 @@ const CreateAc = ({navigation}) => {
         button: 'Close',
       })
     }
-
     else{
       Dialog.show({
         type: ALERT_TYPE.WARNING,
