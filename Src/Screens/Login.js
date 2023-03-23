@@ -7,7 +7,9 @@ import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import { ALERT_TYPE, Dialog, AlertNotificationRoot } from 'react-native-alert-notification';
 
 
+
 const Login = ({navigation}) => {
+  
   const [email, setEmail] = useState(' ');
   const [password, setPassword] = useState(' ');
   const [visible, setVisible] = useState(true);
@@ -67,7 +69,6 @@ const Login = ({navigation}) => {
     {/* <TouchableOpacity onPress={()=>navigation.navigate('CreateAc')} activeOpacity={0.8} style={{alignSelf: 'center', position: 'absolute', top: '42%'}}>
        <Text style={{fontSize: 15, color: 'blue', fontWeight: '600', letterSpacing: 1}}>CREATE A NEW ACCOUNT</Text>
     </TouchableOpacity> */}
-
     </View>
   );
 };
